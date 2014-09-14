@@ -1,0 +1,19 @@
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+
+<table class="table">
+	<tr>
+	<td>Title</td><td><%= @book.name%></td>
+	<td>Author</td><td><%= @book.author%></td>
+	<td>No of Pages</td><td><%= @book.pages %></td>
+	<td>User</td><td><%= @book.user %> </td>
+	</tr>
+	</table>  
+		
+  <%= render @book %>
+		
+	  
+	</div>
+</div>
+</div>
